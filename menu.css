@@ -1,0 +1,75 @@
+body{
+    background-image: url(Ahmedou.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    font-family: sans-serif;
+}
+hr{
+    background-color: gray;
+    border-color: gray;
+    height: 2px;
+}
+h1, h2, p{
+    text-align: center;
+}
+h1, h2{
+    font-family: impact, serif;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+.est{
+    font-style: italic;
+}
+.menu{
+    background-color: rgba(132, 177, 177, 0.639);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.meal, .drink{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+/*FOOTER*/
+footer{
+    font-size: 14px;
+}
+.address{
+    margin-bottom: 5px;
+}
+a{
+    color: black;
+}
+/*psoedo sighns*/
+a:active{
+    color: hsl(0, 2%, 83%);
+}
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: gray;
+}
